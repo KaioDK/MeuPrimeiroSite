@@ -1,12 +1,15 @@
 body{
-    background-color: #96E5AF;
+    background-image:url(../img/fundo4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 header{
     background-color: #9AD8E9;
     padding: 3%;
 }
 .logo{
-    background-color: #FFFFFF;
+    width: 6%;
 }
 nav{
     background-color: #6CEBD1;
@@ -47,5 +50,8 @@ h1{
 }
 h2{
     font-size: 1.5em;
+    text-align: center;
+}
+ul{
     text-align: center;
 }
