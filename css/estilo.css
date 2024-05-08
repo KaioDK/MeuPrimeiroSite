@@ -1,11 +1,11 @@
 body{
-    background-image:url(../img/fundo4.avif);
+    background-image:url(../img/fundoo.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
 }
 header{
-    background-color: #9AD8E9;
+    background-color: #9AD8E9; opacity: 0.8;
     padding: 3%;
 }
 .logo{
@@ -37,8 +37,9 @@ footer{
     line-height: 3;
 }
 p{
-    line-height: 1.5
-    
+    font-family: "Libre Franklin", sans-serif; 
+    line-height: 1.5;
+    font-weight: 500
 }
 ul,li{
     line-height: 1.5;
@@ -54,4 +55,9 @@ h2{
 }
 ul{
     text-align: center;
+}
+
+h1,h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700
 }
