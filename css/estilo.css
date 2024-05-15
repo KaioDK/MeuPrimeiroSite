@@ -4,27 +4,28 @@ body{
     background-size: cover;
     background-attachment: fixed; 
 }
-header{
-    background-color: #9AD8E9; opacity: 0.8;
-    padding: 3%;
-}
 .logo{
     width: 6%;
+    opacity: 2;
+}
+header{
+    background-color: #fa4b1657; 
+    padding: 3%;
 }
 nav{
-    background-color: #6CEBD1;
+    background-color: #ff000079;
 }
 main{
-    background-color: #FFFFFF;
+
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 section{
-    background-color: aqua;
+    background-color: #fa711681;
 }
 footer{
-    background-color: #FFFFFF;
+    background-color: #fa211667;
     padding: 3%;
 }
 .cabecalho{
@@ -60,4 +61,25 @@ ul{
 h1,h2{
     font-family: "DM Sans", sans-serif;
     font-weight: 700
+}
+.tabela{
+    line-height: 1.5;
+    display:flex;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 150%;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-3{
+    width: 25%;   
+}
+.imggaleria{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
