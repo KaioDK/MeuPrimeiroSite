@@ -16,12 +16,12 @@ nav{
     background-color: #ff000079;
 }
 main{
-
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 section{
+    padding: 1rem;
     background-color: #fa711681;
 }
 footer{
@@ -62,13 +62,6 @@ h1,h2{
     font-family: "DM Sans", sans-serif;
     font-weight: 700
 }
-.tabela{
-    line-height: 1.5;
-    display:flex;
-    align-items: center;
-    margin-left: 35%;
-    font-size: 150%;
-}
 .linha{
     display: flex;
     flex-flow: row wrap;
@@ -83,3 +76,26 @@ h1,h2{
     margin-left: 5%;
     margin-right: 5%;
 }
+.tabela{
+    align-items: center;
+    width:100%;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 2rem;
+    margin-left: 30px;
+    display: table;
+}
+.divext {
+    display: flex;
+    justify-content: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
