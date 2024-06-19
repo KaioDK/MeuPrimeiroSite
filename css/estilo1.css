@@ -18,9 +18,13 @@ footer{
 .imglogo{
     width: 6%;
 }
+a:hover, a{
+    color: #000000;
+    text-decoration: none;
+}
 section{
     text-align: justify;
-    text-indent: 2%;
+    text-indent: 1%;
     padding: 1%;
     background-color: #f7782f;
     margin-top: 1%;
@@ -47,3 +51,33 @@ h2{
     margin-top: 1%;
     margin-bottom: 1%;
 }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-3{
+    width: 25%;   
+}
+.imggaleria{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+td, th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid black;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+  }
+  td{
+    font-weight:bold;
+  }
+  table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
