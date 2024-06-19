@@ -25,10 +25,15 @@ a:hover, a{
 section{
     text-align: justify;
     text-indent: 1%;
-    padding: 1%;
+    padding: 2%;
     background-color: #f7782f;
     margin-top: 1%;
     margin-bottom: 1%;
+    line-height: 1.2em;
+}
+.imgbola{
+    width: 18%;
+    float: right;
 }
 .container{
     width: 80%;
@@ -69,7 +74,6 @@ td, th {
     padding: .7em;
     margin: 0;
     border: 1px solid black;
-    /*border: 1px solid #ccc;*/
     text-align: center;
   }
   td{
