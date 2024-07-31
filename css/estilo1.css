@@ -4,6 +4,10 @@
 .color4 {color: #ffff9a;}
 .color5 {color: #f9ffdd;}
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     background-color: #f7782f;
     display: flex;
