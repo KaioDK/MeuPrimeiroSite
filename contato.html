@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASQUETE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link rel="icon" type="image/x-icon" href="img/logobasquete.png">
+</head>
+<body>
+    <header class="cabecalho">
+            <img src="img/logobasquete.png" class="imglogo" alt="logo de bola de basquete">
+            <h1 class="titulos">BASQUETE</h1>
+    </header>
+    <nav>
+        <a href="index.html">Página inicial</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#origem">Origem</a>
+        <a href="#posicoes">Posição</a>
+        <a href="#regras">Regras</a>
+        <a href="#nomes importantes">Nomes Importantes</a>
+        <a href=contato.html>Contato</a>
+    </nav>
+    <main class="container">
+        <section class="contato">
+            <form>
+                <div>
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="Seu Nome" required>
+                        </div>
+
+                        <div>
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" placeholder="(XX) XXXX-XXXX">
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Seu E-mail" required>
+                        </div>
+
+                        <div>
+                            <label for="age">Idade:</label>
+                            <input type="number" id="age" name="age" min="1" max="150" placeholder="Sua Idade">
+                        </div>
+
+                        <div>
+                            <label for="nasc">Data de Nascimento:</label>
+                            <input type="date" id="nasc">
+                        </div>
+
+                        <div>
+                            <label for="time">Time Favorito:</label>
+                            <select id="time" name="time">
+                                <option>Atlanta Hawks</option>
+                                <option>Boston Celtics</option>
+                                <option>Brooklyn Nets</option>
+                                <option>Charlotte Hornets</option>
+                                <option>Chicago Bulls</option>
+                                <option>Cleveland Cavaliers</option>
+                                <option>Dallas Mavericks</option>
+                                <option>Denver Nuggets</option>
+                                <option>Detroit Pistons</option>
+                                <option>Golden State Warriors</option>
+                                <option>Houston Rockets</option>
+                                <option>Indiana Pacers</option>
+                                <option>Los Angeles Clippers</option>
+                                <option>Los Angeles Lakers</option>
+                                <option>Memphis Grizzlies</option>
+                                <option>Miami Heat</option>
+                                <option>Milwaukee Bucks</option>
+                                <option>Minnesota Timberwolves</option>
+                                <option>New Orleans Hornets</option>
+                                <option>New York Knicks</option>
+                                <option>Oklahoma City Thunder</option>
+                                <option>Orlando Magic</option>
+                                <option>Philadelphia 76ers</option>
+                                <option>Phoenix Suns</option>
+                                <option>Portland Trail Blazers</option>
+                                <option>Sacramento Kings</option>
+                                <option>San Antonio Spurs</option>
+                                <option>Toronto Raptors</option>
+                                <option>Utah Jazz</option>
+                                <option>Washington Wizards</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <h2>Qual posição você joga?</h2>
+
+                            <input type="radio">
+                            <label for="posiArma">Armador</label><br>
+                            <input type="radio">
+                            <label for="posiAla-Arma">Ala-Armador</label><br>
+                            <input type="radio">
+                            <label for="posiAla">Ala</label><br>
+                            <input type="radio">
+                            <label for="posiAla-Pivo">Ala-Pivô</label><br>
+                            <input type="radio">
+                            <label for="posiPivo">Pivô</label><br>
+                            <input type="radio">
+                            <label for="naoJoga">Não jogo basquete</label>
+                        </div>
+
+                        <div>
+                            <h2>Você é federado/joga em algum time?</h2>
+                        </div>
+
+                        <div>
+                            <input type="submit">
+                        </div>
+                </div>   
+            </form>    
+    </main>
+    <footer class="rodape">
+        <p>Kaio de Lima©</p>
+    </footer>
+</body>
+</html>
